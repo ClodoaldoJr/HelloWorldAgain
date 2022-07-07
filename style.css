@@ -1,0 +1,25 @@
+body {
+    background: rgba(18, 14, 231, 0.856);
+}
+
+
+
+img {
+    
+    width: 150px;
+    border-radius: 50%;
+
+}
+
+ h1 {
+    font-size: 30px;
+    color: beige;
+    
+}
+
+ p {
+    color: azure;
+    margin-top: 30px;
+    font-size: 20px;
+
+}
