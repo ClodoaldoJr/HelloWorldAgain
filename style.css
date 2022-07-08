@@ -1,8 +1,17 @@
 body {
-    background: rgba(18, 14, 231, 0.856);
+    background: #FAFAFA;
 }
 
+section {
+    width: 100vh;
+}
 
+.container {
+
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+}
 
 img {
     
@@ -12,13 +21,14 @@ img {
 }
 
  h1 {
+
     font-size: 30px;
-    color: beige;
+    color: black;
     
 }
 
  p {
-    color: azure;
+    color: black;
     margin-top: 30px;
     font-size: 20px;
 
