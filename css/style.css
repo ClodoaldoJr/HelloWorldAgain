@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+    
+}
+
 body {
     background: #FAFAFA;
     margin: 0;
@@ -90,4 +95,17 @@ img {
     margin-top: 30px;
     font-size: 20px;
 
+}
+
+.topo img {
+    background-color: bisque;
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
 }
