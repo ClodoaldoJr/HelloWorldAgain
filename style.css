@@ -1,9 +1,28 @@
 body {
     background: #FAFAFA;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(110, 105, 105);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+.menu a {
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 30px;
 }
 
 section {
-    width: 100vh;
+    width: 100%;
+    height: 100vh;
 }
 
 .container {
@@ -11,6 +30,45 @@ section {
     max-width: 1000px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+}
+
+#pessoa2 {
+    background-color: red;
+
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding-top: 20px;
+}
+
+#pessoa3 {
+    background-color: bisque;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding-top: 20px;
+    
+}
+
+#pessoa4 {
+    background-color: blueviolet;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin:0 auto;
+    padding-top: 20px;
+    
 }
 
 img {
